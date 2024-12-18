@@ -20,3 +20,21 @@
   --text-dark: #292828;
 }
 /*----------------- root exit -----------------*/
+h1 {
+  border-bottom: 3px solid;
+  width: fit-content;
+}
+
+/*------------------- card -------------------*/
+.card-footer img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid;
+}
+#date {
+  font-size: 13px;
+  font-family: "Source Code Pro", serif;
+}
+/*------------------- card exit -------------------*/

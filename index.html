@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
     <!-- link-bootstrap -->
     <link
       rel="stylesheet"
@@ -32,7 +39,70 @@
     <title>Naby's Blog</title>
   </head>
   <body>
-    <div class="container-fluid"></div>
+    <div class="container-fluid py-3">
+      <h1 class="mx-auto pb-1 mb-5">DEVS's Blog</h1>
+      <div class="container">
+        <div class="row">
+          <!------- affichage articles ------->
+          <div class="col-12 col-md-6 mb-3">
+            <div class="card px-2 pt-2">
+              <img
+                src="cardimage.jpg"
+                class="card-img-top img-fluid w-100"
+                alt="..."
+              />
+              <div class="card-body px-0">
+                <h2>Article title</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laudantium distinctio saepe vero animi cumque sapiente atque
+                  amet eveniet ducimus maiores necessitatibus quod recusandae
+                  delectus, quasi, fuga accusantium. Aspernatur odio eos
+                  commodi. Autem iste corrupti doloribus fugiat at.
+                </p>
+                <div
+                  class="card-footer d-flex justify-content-between align-items-center"
+                >
+                  <div class="d-flex align-items-center">
+                    <img src="cardimage.jpg" alt="" />
+                    <h6 class="ms-3 mb-0">Eichiro Oda</h6>
+                  </div>
+                  <h3 class="mb-0" id="date">30 août 2024</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="card px-2 pt-2">
+              <img
+                src="cardimage.jpg"
+                class="card-img-top img-fluid w-100"
+                alt="..."
+              />
+              <div class="card-body px-0">
+                <h2>Article title</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laudantium distinctio saepe vero animi cumque sapiente atque
+                  amet eveniet ducimus maiores necessitatibus quod recusandae
+                  delectus, quasi, fuga accusantium. Aspernatur odio eos
+                  commodi. Autem iste corrupti doloribus fugiat at.
+                </p>
+                <div
+                  class="card-footer d-flex justify-content-between align-items-center"
+                >
+                  <div class="d-flex align-items-center">
+                    <img src="cardimage.jpg" alt="" />
+                    <h6 class="ms-3 mb-0">Eichiro Oda</h6>
+                  </div>
+                  <h3 class="mb-0" id="date">30 août 2024</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
   <script src="main.js"></script>
 </html>
