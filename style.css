@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* --- */
+  /* border: 1px solid red; */
+}
+/*----------------- root -----------------*/
+:root {
+  /* btn */
+  --btn-color: #b58863;
+  --btn-hover-color: #e1a66f;
+  /* background */
+  --bg-dark: #2d3250;
+  --bg-grey1: #676c8e;
+  --bg-light: #f6f5f5;
+  --bg-grey2: #b4afac;
+  /* text-color */
+  --text-white: #ffffff;
+  --text-dark: #292828;
+}
+/*----------------- root exit -----------------*/
